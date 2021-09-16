@@ -34,5 +34,6 @@ Basic rss consumer with some of php for the default uri and real time fetch with
 In this project i was facing an issue with the url consuming, cause the rss fetch was throwing an error with the CORS protocol for the HTPPS and HTTP cross request, so in this case i made an solution for this, but if you want to test this you need to enter to this link https://cors-anywhere.herokuapp.com/corsdemo and click on the button that says ***`Request Temporary Access To The Demo Server`***
 
 ## Temporary Access To Heroku Demo Server Recording
-https://share.getcloudapp.com/o0uPLZAl
+https://share.getcloudapp.com/NQuYAxQE
 ## Functionality Screen Recording
+https://share.getcloudapp.com/o0uPLZAl
