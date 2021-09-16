@@ -7,12 +7,12 @@ $(function() {
 });
 
 function fetchURI(){
-    $("#spinnerLoading").show();
     const uri_value = $("#uriinput").val()
     const cors_validator = "https://cors-anywhere.herokuapp.com/"; 
     let dates = $("#date-range").val();
     dates = dates.split(" -");
     if(uri_value){
+        $("#spinnerLoading").show();
         fetch(`${cors_validator}${uri_value}`)
         .then(response => response.text())
         .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
@@ -87,5 +87,7 @@ function fetchURI(){
             }
             $("#spinnerLoading").fadeOut();
         });
+    } else {
+        window.alert("Enter a rss provider URI")
     }
 }
