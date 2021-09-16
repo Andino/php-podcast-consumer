@@ -42,14 +42,16 @@ $rss_feed = simplexml_load_file($default_rss);
                         <?php echo $default_rss?>
                     </small>
                 </small>
-                <small class="font-bold">
+            </div>
+            <br>
+            <div class="col-md-12 text-center">
+            <small class="font-bold">
                     Disclaimer: 
                     <small class="font-lighter"> 
                         If the provided date range doesn't found any podcast, 
                         the process will fetch the latest podcasts!
                     </small>
                 </small>
-                <br>
             </div>
             <div class="col-auto mt-3">
                 <label for="uriinput" class="visually-hidden">Uri</label>
